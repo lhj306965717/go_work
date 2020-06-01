@@ -7,6 +7,5 @@ func main(){
 
 	fmt.Println("Hellow World!")
 
-	test.test();
-
+	test.Test();
 }

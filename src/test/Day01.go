@@ -11,7 +11,7 @@ var (
 	bbb bool
 )
 
-func test() {
+func Test() {
 
 	var a = 10
 	var str = "chen hong"
@@ -20,7 +20,7 @@ func test() {
 	fmt.Println(str)
 }
 
-func test_1() {
+func Test_1() {
 
 	// 主动声明 变量 b 的类型
 	var b bool = true
@@ -31,7 +31,7 @@ func test_1() {
 	fmt.Println("布尔：", b)
 }
 
-func test_2() {
+func Test_2() {
 
 	// 这两种有什么区别，待区分
 	// 占用32 或 64 位
@@ -41,7 +41,7 @@ func test_2() {
 	fmt.Println(c1, " : ", c2)
 }
 
-func test_3() {
+func Test_3() {
 
 	// 如果默认不初始化，则系统默认初始化为0
 	var b int
@@ -58,7 +58,7 @@ func test_3() {
 	fmt.Println(s)
 }
 
-func test_4() {
+func Test_4() {
 
 	//  指针，默认初始值 为nil，nil 相当于 nullpointer
 	var a *int = nil
